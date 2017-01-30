@@ -83,6 +83,8 @@ and `bidders.csv`, a correct program will generate the following output:
 - Bob Briskey will bid double for paintings where the subject is horses. 2 x $25,000 is $50,000
 
 
+___
+
 #### input
 ```
 'Mrs Frisby', 'painting', 'Mrs Frisby', $3,000, '31 × 25 in', 'Shelley Adler'
@@ -98,6 +100,8 @@ and `bidders.csv`, a correct program will generate the following output:
 - The starting bid was $3,000
 - The artist was Shelley Adler
 - Donald von Neuman will bid three times the starting price for paintings by Shelley Adler
+
+___
 
 #### input
 ```
@@ -116,6 +120,7 @@ and `bidders.csv`, a correct program will generate the following output:
 - Sue Perkins will only bid for paintings smaller than 25 × 25 in
 - Donald von Neuman has a fear of tomatoes and will not bid for paintings with a subject of tomatoes
 
+___
 
 #### input
 ```
@@ -131,6 +136,8 @@ and `bidders.csv`, a correct program will generate the following output:
 - The highest bid wins. 
 - The starting bid was $50,000
 - Sue Perkins will bid double for paintings smaller than 25 × 25 in
+
+___
 
 #### input
 ```
