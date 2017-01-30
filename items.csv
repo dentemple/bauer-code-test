@@ -1,6 +1,6 @@
 title, type, subject, starting-bid, size, artist
 "Horses horses horses", "painting", "horses", "$25,000", "200 × 180 in", "Joe Smith"
-"Mrs Frisby", "painting", "Mrs Frisby", $3,000, "31 × 25 in", "Shelley Adler"
+"Mrs Frisby", "painting", "Mrs Frisby" "$3,000", "31 × 25 in", "Shelley Adler"
 "Tomato Organizers", "painting", "tomatoes", "$150,000", "120 × 180 in", "Christopher Boffoli"
 "The principles of nature", "painting", "trees", "$50,000", "23 × 15 in", "Jaehyo Lee"
 "The Sweet Life", "sculpture", "lollipops", "$100,000", "18 × 12 in", "Elena Bulatova"
