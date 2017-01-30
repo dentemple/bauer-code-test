@@ -74,7 +74,7 @@ and `bidders.csv`, and applying the rules in `rules.txt`  a correct program will
 
 #### output
 ```
-'Horses horses horses' Bob Briskey $50,000
+'Horses horses horses', Bob Briskey, $50,000
 ```
 
 #### explanation
