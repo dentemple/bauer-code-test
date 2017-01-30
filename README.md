@@ -9,10 +9,8 @@ put it on github via fork or import, please do so in a private repository.
 ### Requirements
 
  - This test is not timed, take as long as you need.
- - We intend this test to take no more than a day to complete at most.
- - You may complete the test in the programming language of your choice.
- - You may not use ANY third party libraries in your solution, with the exception of testing libraries. 
- The solution should be written in Plain Old Ruby Objects or similar. We want to see your code not how you use someone else"s library!
+ - You may complete the test in the programming language of your choice. 
+ - You may not use ANY third party libraries in your solution, with the exception of testing libraries. No frameworks please!
  - Please submit your solution in a zip file. We will not accept Github forks or links to code on Github or any similar
  host.
  - Please tell us what language you used to implement your solution.
