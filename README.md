@@ -69,12 +69,12 @@ and `bidders.csv`, and applying the rules in `rules.txt`  a correct program will
 
 #### input
 ```
-'Horses horses horses', 'painting', 'horses', $25,000, '200 × 180 in', 'Joe Smith'
+'Horses horses horses', 'painting', 'horses', '$25,000', '200 × 180 in', 'Joe Smith'
 ```
 
 #### output
 ```
-'Horses horses horses', Bob Briskey, $50,000
+'Horses horses horses', 'Bob Briskey', '$50,000'
 ```
 
 #### explanation
@@ -87,12 +87,12 @@ ___
 
 #### input
 ```
-'Mrs Frisby', 'painting', 'Mrs Frisby', $3,000, '31 × 25 in', 'Shelley Adler'
+'Mrs Frisby', 'painting', 'Mrs Frisby', '$3,000', '31 × 25 in', 'Shelley Adler'
 ```
 
 #### output
 ```
-'Mrs Frisby', Donald von Neuman, $9,000
+'Mrs Frisby', 'Donald von Neuman', '$9,000'
 ```
 
 #### explanation
@@ -105,12 +105,12 @@ ___
 
 #### input
 ```
-'Tomato Organizers', 'painting', 'tomatoes', $150,000, '120 × 180 in', 'Christopher Boffoli'
+'Tomato Organizers', 'painting', 'tomatoes', '$150,000', '120 × 180 in', 'Christopher Boffoli'
 ```
 
 #### output
 ```
-'Tomato Organizers', Bob Briskey, $150,000 
+'Tomato Organizers', 'Bob Briskey', '$150,000 '
 ```
 
 #### explanation
@@ -124,12 +124,12 @@ ___
 
 #### input
 ```
-'The principles of nature', 'painting', 'trees', $50,000, '23 × 15 in', 'Jaehyo Lee'
+'The principles of nature', 'painting', 'trees', '$50,000', '23 × 15 in', 'Jaehyo Lee'
 ```
 
 #### output
 ```
-'The principles of nature', Sue Perkins, $100,000
+'The principles of nature', 'Sue Perkins', '$100,000'
 ```
 
 #### explanation
@@ -141,12 +141,12 @@ ___
 
 #### input
 ```
-'The Sweet Life', 'sculpture', 'lollipops', $100,000, '18 × 12 in', 'Elena Bulatova'
+'The Sweet Life', 'sculpture', 'lollipops', '$100,000', '18 × 12 in', 'Elena Bulatova'
 ```
 
 #### output
 ```
-'The Sweet Life', Amanda Wu, $100,000
+'The Sweet Life', 'Amanda Wu', '$100,000'
 ```
 
 #### explanation
