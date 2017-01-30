@@ -1,3 +1,4 @@
+Each bidder can bid only once for each item.
 All bidders bid the starting bid unless other rules come into effect
 All bidders stop bidding when they have insufficient funds to bid
 The bidder with the highest bid wins the item

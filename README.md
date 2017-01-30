@@ -50,7 +50,7 @@ for those items. You are going to help our auction house run the auction!
 We will supply you with a list of auction items and their attributes, and a list of users and their bidding preferences, and for each item
 you will tell us which user made the winning bid and what the winning bid was.
 
-## The rules
+## Auction rules
 
 - Each user has a finite amount of money to spend on all the items. Once it is gone, they can no longer bid.
 - Each user can bid only once for each item.
@@ -60,7 +60,7 @@ you will tell us which user made the winning bid and what the winning bid was.
 ### Instructions
 
 Write a program that will take the results of `items.csv` and `bidders.csv` and generate the file `winning-bids.csv`. Given the data in `items.csv` 
-and `bidders.csv`, a correct program will generate the following output:
+and `bidders.csv`, and applying the rules in `rules.txt`  a correct program will generate the following output:
 
 
 
