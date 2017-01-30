@@ -1,0 +1,9 @@
+All bidders bid the starting bid unless other rules come into effect
+All bidders stop bidding when they have insufficient funds to bid
+The bidder with the highest bid wins the item
+Bob Briskey will bid double for paintings where the subject is horses
+Amanda Wu will never bid more than $100,000 for any item
+Sue Perkins will only bid for paintings smaller than 25 × 25 in
+Sue Perkins will bid double for paintings smaller than 25 × 25 in
+Donald von Neuman has a fear of tomatoes and will not bid for paintings with a subject of tomatoes
+Donald von Neuman will bid three times the starting price for paintings by Shelley Adler
