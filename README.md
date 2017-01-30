@@ -12,7 +12,7 @@ put it on github via fork or import, please do so in a private repository.
  - We intend this test to take no more than a day to complete at most.
  - You may complete the test in the programming language of your choice.
  - You may not use ANY third party libraries in your solution, with the exception of testing libraries. 
- The solution should be written in Plain Old Ruby Objects or similar. We want to see your code not how you use someone else's library!
+ The solution should be written in Plain Old Ruby Objects or similar. We want to see your code not how you use someone else"s library!
  - Please submit your solution in a zip file. We will not accept Github forks or links to code on Github or any similar
  host.
  - Please tell us what language you used to implement your solution.
@@ -26,7 +26,7 @@ put it on github via fork or import, please do so in a private repository.
     - Code quality metrics such as cleanliness, readability, maintainability and simplicity.
     - Test quality and maintainability.
 - Good references for what we consider to be cleanliness, readability, maintainability and simplicity are
-Sandi Metz's ["Practial Object Oriented Design in Ruby"](http://www.poodr.com/) and
+Sandi Metz"s ["Practial Object Oriented Design in Ruby"](http://www.poodr.com/) and
 [code samples from it](https://github.com/skmetz/poodr/)
 
 ### Running Your Solution
@@ -69,12 +69,12 @@ and `bidders.csv`, and applying the rules in `rules.txt`  a correct program will
 
 #### input
 ```
-'Horses horses horses', 'painting', 'horses', '$25,000', '200 × 180 in', 'Joe Smith'
+"Horses horses horses", "painting", "horses", "$25,000", "200 × 180 in", "Joe Smith"
 ```
 
 #### output
 ```
-'Horses horses horses', 'Bob Briskey', '$50,000'
+"Horses horses horses", "Bob Briskey", "$50,000"
 ```
 
 #### explanation
@@ -87,12 +87,12 @@ ___
 
 #### input
 ```
-'Mrs Frisby', 'painting', 'Mrs Frisby', '$3,000', '31 × 25 in', 'Shelley Adler'
+"Mrs Frisby", "painting", "Mrs Frisby", "$3,000", "31 × 25 in", "Shelley Adler"
 ```
 
 #### output
 ```
-'Mrs Frisby', 'Donald von Neuman', '$9,000'
+"Mrs Frisby", "Donald von Neuman", "$9,000"
 ```
 
 #### explanation
@@ -105,12 +105,12 @@ ___
 
 #### input
 ```
-'Tomato Organizers', 'painting', 'tomatoes', '$150,000', '120 × 180 in', 'Christopher Boffoli'
+"Tomato Organizers", "painting", "tomatoes", "$150,000", "120 × 180 in", "Christopher Boffoli"
 ```
 
 #### output
 ```
-'Tomato Organizers', 'Bob Briskey', '$150,000 '
+"Tomato Organizers", "Bob Briskey", "$150,000 "
 ```
 
 #### explanation
@@ -124,12 +124,12 @@ ___
 
 #### input
 ```
-'The principles of nature', 'painting', 'trees', '$50,000', '23 × 15 in', 'Jaehyo Lee'
+"The principles of nature", "painting", "trees", "$50,000", "23 × 15 in", "Jaehyo Lee"
 ```
 
 #### output
 ```
-'The principles of nature', 'Sue Perkins', '$100,000'
+"The principles of nature", "Sue Perkins", "$100,000"
 ```
 
 #### explanation
@@ -141,17 +141,17 @@ ___
 
 #### input
 ```
-'The Sweet Life', 'sculpture', 'lollipops', '$100,000', '18 × 12 in', 'Elena Bulatova'
+"The Sweet Life", "sculpture", "lollipops", "$100,000", "18 × 12 in", "Elena Bulatova"
 ```
 
 #### output
 ```
-'The Sweet Life', 'Amanda Wu', '$100,000'
+"The Sweet Life", "Amanda Wu", "$100,000"
 ```
 
 #### explanation
 - The highest bid wins. 
 - The starting bid was $100,000
 - Sue Perkins will only bid for paintings smaller than 25 × 25 in
-- Donald von Neuman doesn't have enough money left to bid
-- Bob Briskey doesn't have enough money left to bid
+- Donald von Neuman doesn"t have enough money left to bid
+- Bob Briskey doesn"t have enough money left to bid
