@@ -32,9 +32,10 @@ Sandi Metz"s ["Practial Object Oriented Design in Ruby"](http://www.poodr.com/) 
 
 ### Anonymize Your Solution
 
-All submitted code tests will be anonymized before they are given to our code test graders. It is important that
-you do not add your name, Github profile or any other identifying information to any file you submit as a part of the
-solution (i.e. nothing in the submitted ZIP file is to identify you). We've setup local config for this repo to make all commits anonymous so you can still use version control.
+All submitted code tests will be anonymized before they are given to our code test graders. It is important that you do not add your name, Github profile or any other identifying information to any file you submit as a part of the solution (i.e. nothing in the submitted ZIP file is to identify you). We've setup local config for this repo to make all commits anonymous so you can still use version control. Run the following to enable this locally:
+```
+git config --local include.path ../.gitconfig
+```
 
 # The Problem
 
