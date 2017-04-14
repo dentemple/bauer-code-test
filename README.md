@@ -21,6 +21,7 @@ put it on github via fork or import, please do so in a private repository.
     - Correctness of output
     - Code quality metrics such as cleanliness, readability, maintainability and simplicity.
     - Test quality and maintainability.
+    - Effective use of version control.
 - References for what we consider to be good examples of cleanliness, readability, maintainability and simplicity:
 Sandi Metz"s ["Practial Object Oriented Design in Ruby"](http://www.poodr.com/) and
 [related code samples](https://github.com/skmetz/poodr/)
@@ -47,7 +48,7 @@ We will supply you with a list of auction items and their attributes, and a list
 
 ## Auction rules
 
-- Each user has a finite amount of money to bid on all the items. Once its gone, they can no longer bid on anything else.
+- Each user has a finite amount of money to bid on all the items. Once it's gone, they can no longer bid on anything else.
 - Each user can bid only once for each item.
 - It is a silent auction - users do not know each other's bids.
 - Once bidding is finished for all items, the highest bid wins each item.
@@ -80,3 +81,44 @@ Write a program that will take the data from `items.json` and `bidders.json` as 
 ]
 
 ```
+
+#### Explanation
+```
+["Horses horses horses", "Bob Briskey", "$50,000"]
+```
+- The highest bid wins.
+- The starting bid was $25,000
+- Bob Briskey will bid double for paintings where the subject is horses. 2 x $25,000 is $50,000
+
+```
+["Mrs Frisby", "Donald von Neuman", "$9,000"]
+```
+- The highest bid wins.
+- The starting bid was $3,000
+- The artist was Shelley Adler
+- Donald von Neuman will bid three times the starting price for paintings by Shelley Adler
+
+```
+["Tomato Organizers", "Bob Briskey", "$150,000 "]
+```
+- The highest bid wins.
+- The starting bid was $150,000
+- Amanda Wu will never bid more than $100,000 for any item
+- Sue Perkins will only bid for paintings smaller than 25 × 25 in
+- Donald von Neuman has a fear of tomatoes and will not bid for paintings with a subject of tomatoes
+
+```
+["The principles of nature", "Sue Perkins", "$100,000"]
+```
+- The highest bid wins.
+- The starting bid was $50,000
+- Sue Perkins will bid double for paintings smaller than 25 × 25 in
+
+```
+["The Sweet Life", "Amanda Wu", "$100,000"]
+```
+- The highest bid wins.
+- The starting bid was $100,000
+- Sue Perkins will only bid for paintings smaller than 25 × 25 in
+- Donald von Neuman doesn"t have enough money left to bid
+- Bob Briskey doesn"t have enough money left to bid
