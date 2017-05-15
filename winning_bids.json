@@ -2,7 +2,7 @@
     {
       "title" : "Horses horses horses",
       "winner" : "Bob Briskey",
-      "bid" : "$50,000"
+      "bid" : "$100,000"
     },
     {
       "title" : "Mrs Frisby",
@@ -11,8 +11,8 @@
     },
     {
       "title" : "Tomato Organizers",
-      "winner" : "Bob Briskey",
-      "bid" : "$150,000"
+      "winner" : "Amanda Wu",
+      "bid" : "$10,000"
     },
     {
       "title" : "The principles of nature",
@@ -21,8 +21,8 @@
     },
     {
       "title" : "The Sweet Life",
-      "winner" : "Amanda Wu",
-      "bid" : "$100,000"
+      "winner" : "Sue Perkins",
+      "bid" : "$200,000"
     }
   ]
 }
