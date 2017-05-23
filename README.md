@@ -72,14 +72,34 @@ Write a program that will take the data from `items.json` and `bidders.json` as 
 
 #### Output
 ```
-[
-  ["Horses horses horses", "Bob Briskey", "$50,000"],
-  ["Mrs Frisby", "Donald von Neuman", "$9,000"],
-  ["Tomato Organizers", "Bob Briskey", "$150,000 "],
-  ["The principles of nature", "Sue Perkins", "$100,000"],
-  ["The Sweet Life", "Amanda Wu", "$100,000"]
-]
-
+{ "winningBids" : [
+    {
+      "title" : "Horses horses horses",
+      "winner" : "Bob Briskey",
+      "bid" : "$100,000"
+    },
+    {
+      "title" : "Mrs Frisby",
+      "winner" : "Donald von Neuman",
+      "bid" : "$9,000"
+    },
+    {
+      "title" : "Tomato Organizers",
+      "winner" : "Amanda Wu",
+      "bid" : "$10,000"
+    },
+    {
+      "title" : "The principles of nature",
+      "winner" : "Sue Perkins",
+      "bid" : "$100,000"
+    },
+    {
+      "title" : "The Sweet Life",
+      "winner" : "Sue Perkins",
+      "bid" : "$200,000"
+    }
+  ]
+}
 ```
 
 #### Explanation
