@@ -104,11 +104,12 @@ Write a program that will take the data from `items.json` and `bidders.json` as 
 
 #### Explanation
 ```
-["Horses horses horses", "Bob Briskey", "$50,000"]
+["Horses horses horses", "Bob Briskey", "$100,000"]
 ```
 - The highest bid wins.
 - The starting bid was $25,000
 - Bob Briskey will bid double for paintings where the subject is horses. 2 x $25,000 is $50,000
+- Bob Briskey will bid double for paintings larger than 625 square inches. 2 x $50,000 is $100,000.
 
 ```
 ["Mrs Frisby", "Donald von Neuman", "$9,000"]
@@ -135,10 +136,11 @@ Write a program that will take the data from `items.json` and `bidders.json` as 
 - Sue Perkins will bid double for paintings smaller than 25 × 25 in
 
 ```
-["The Sweet Life", "Amanda Wu", "$100,000"]
+["The Sweet Life", "Sue Perkins", "$200,000"]
 ```
 - The highest bid wins.
 - The starting bid was $100,000
 - Sue Perkins will only bid for paintings smaller than 25 × 25 in
+- Sue Perkins will bid double for paintings smaller than 25 x 25 in
 - Donald von Neuman doesn"t have enough money left to bid
 - Bob Briskey doesn"t have enough money left to bid
