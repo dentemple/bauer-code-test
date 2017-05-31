@@ -85,8 +85,8 @@ Write a program that will take the data from `items.json` and `bidders.json` as 
     },
     {
       "title" : "Tomato Organizers",
-      "winner" : "Amanda Wu",
-      "bid" : "$10,000"
+      "winner" : "Bob Briskey",
+      "bid" : "$150,000"
     },
     {
       "title" : "The principles of nature",
