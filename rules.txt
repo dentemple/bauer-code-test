@@ -11,7 +11,6 @@ Bidding 0 dollars is the equivalent of not bidding.
 Bob Briskey: 
 - will bid double for paintings where the subject is horses.
 - will bid double for paintings that are larger or equal to 625 square inches.
-- will not bid on paintings by Christopher Boffoli. 
 
 Amanda Wu:
 - will never bid more than $100,000 for any item.
