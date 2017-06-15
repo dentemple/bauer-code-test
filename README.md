@@ -38,6 +38,16 @@ All submitted code tests will be anonymized before they are given to our code te
 git config --local include.path ../.gitconfig
 ```
 
+### Submitting your solution
+
+When you've completed your completed codetest, send the zipped solution files to codetest@bauerxcel.com. Be sure to include:
+
+* Anonymized git repo
+* Solution notes
+* Solution and test code
+
+We will do our best to grade the code test within two business days.
+
 # The Problem
 
 ### Meet the Bauer Bidding Platform
