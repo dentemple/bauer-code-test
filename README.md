@@ -96,7 +96,7 @@ Write a program that will take the data from `items.json` and `bidders.json` as 
     {
       "title" : "Tomato Organizers",
       "winner" : "Bob Briskey",
-      "bid" : "$150,000"
+      "bid" : "$300,000"
     },
     {
       "title" : "The principles of nature",
@@ -130,13 +130,15 @@ Write a program that will take the data from `items.json` and `bidders.json` as 
 - Donald von Neuman will bid three times the starting price for paintings by Shelley Adler
 
 ```
-["Tomato Organizers", "Bob Briskey", "$150,000 "]
+["Tomato Organizers", "Bob Briskey", "$300,000 "]
 ```
 - The highest bid wins.
 - The starting bid was $150,000
 - Amanda Wu will never bid more than $100,000 for any item
 - Sue Perkins will only bid for paintings smaller than 25 × 25 in
 - Donald von Neuman has a fear of tomatoes and will not bid for paintings with a subject of tomatoes
+- Bob Briskey will bid double for paintings larger than 625 square inches. 2 x $150,000 is $300,000.
+
 
 ```
 ["The principles of nature", "Sue Perkins", "$100,000"]
