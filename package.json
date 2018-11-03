@@ -2,15 +2,21 @@
   "name": "bauer-code-test",
   "version": "1.0.0",
   "description": "Bauer Xcel Code Test",
-  "main": "index.js",
+  "main": "main",
   "repository": "https://github.com/bauerpub/code-test",
   "author": "Anonymous <anon@anon.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "log": "nodemon .",
+    "test": "jest -i",
+    "test:watch": "jest -i --watch"
+  },
   "devDependencies": {
     "husky": "^1.1.3",
     "jest": "^23.6.0",
     "lint-staged": "^8.0.4",
+    "nodemon": "^1.18.5",
     "prettier": "^1.14.3"
   },
   "husky": {
