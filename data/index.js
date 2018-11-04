@@ -1,16 +1,16 @@
 'use strict'
 
 /**
- * Create interfaces for the given json files. Generates a shallow copy of each.
+ * Create interfaces for the given json files based off of a shallow copy of each.
  */
 
-function createInterface(file) {
-  return { ...file }
+function createInterface(json) {
+  return { ...json }
 }
 
 module.exports = {
-  biddersData: createInterface(require('../bidders.json')),
-  itemsData: createInterface(require('../items.json')),
-  winningBidsData: createInterface(require('../winning_bids.json')),
+  bidders: createInterface(require('../bidders.json')).bidders,
+  items: createInterface(require('../items.json')).items,
+  winningBids: createInterface(require('../winning_bids.json')).winningBids,
   createInterface
 }
