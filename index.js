@@ -1,10 +1,21 @@
 'use strict'
 
-const { biddersData, itemsData } = require('./data')
-const { generateRules, runSilentAuction } = require('./src')
+const { bidders, items } = require('./data')
+const { auction, preferences } = require('./src')
 
-const rules = generateRules()
+// console.log({
+//   winningBids: auction({
+//     bidders,
+//     items,
+//     preferences
+//   }),
+//   history
+// })
 
 module.exports = {
-  winningBids: runSilentAuction(biddersData, itemsData, rules)
+  winningBids: auction({
+    bidders,
+    items,
+    preferences
+  })
 }

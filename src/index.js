@@ -1,9 +1,9 @@
 'use strict'
 
-const generateRules = require('./generateRules')
-const runSilentAuction = require('./runSilentAuction')
+const auction = require('./auction')
+const preferences = require('./preferences')
 
 module.exports = {
-  generateRules,
-  runSilentAuction
+  auction,
+  preferences
 }
