@@ -1,9 +1,8 @@
 'use strict'
 
 describe('silent auction', () => {
-  const { bidders, items, winningBids } = require('../../data')
+  const { bidders, items, preferences, winningBids } = require('../../data')
   const auction = require('../auction')
-  const preferences = require('../preferences')
 
   it('returns an expected data type', () => {
     const result = auction({
@@ -17,7 +16,7 @@ describe('silent auction', () => {
     expect(Array.isArray(result)).toBe(true)
   })
 
-  xit('returns the expected data', () => {
+  it('returns the expected data', () => {
     const result = auction({
       bidders,
       items,

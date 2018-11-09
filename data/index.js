@@ -12,5 +12,6 @@ module.exports = {
   bidders: createInterface(require('../bidders.json')).bidders,
   items: createInterface(require('../items.json')).items,
   winningBids: createInterface(require('../winning_bids.json')).winningBids,
+  preferences: require('./preferences'),
   createInterface
 }

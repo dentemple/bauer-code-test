@@ -1,15 +1,14 @@
 'use strict'
 
-const { bidders, items } = require('./data')
-const { auction, preferences } = require('./src')
+const { bidders, items, preferences } = require('./data')
+const { auction } = require('./src')
 
 // console.log({
 //   winningBids: auction({
 //     bidders,
 //     items,
 //     preferences
-//   }),
-//   history
+//   })
 // })
 
 module.exports = {

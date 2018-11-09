@@ -1,10 +1,10 @@
 'use strict'
 
-const areEqual = require('./utils/areEqual')
-const getInches = require('./utils/getInches')
+const { areEqual, getInches } = require('../utils')
 
 const preferences = {
   'Bob Briskey': {
+    ceiling: null,
     multipliers: [
       ({ bid, type, subject }) =>
         areEqual([type, subject], ['painting', 'horses']) ? bid * 2 : bid,
@@ -22,12 +22,14 @@ const preferences = {
     ]
   },
   'Sue Perkins': {
+    ceiling: null,
     multipliers: [
       ({ bid, type, size }) =>
         type === 'painting' && getInches(size) < 625 ? bid * 2 : 0
     ]
   },
   'Donald von Neuman': {
+    ceiling: null,
     multipliers: [
       ({ bid, type, subject }) =>
         areEqual([type, subject], ['painting', 'tomatoes']) ? 0 : bid,
