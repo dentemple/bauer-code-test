@@ -1,5 +1,14 @@
 'use strict'
 
+/**
+ * The set of individual preferences listed in the rules.txt file.
+ *    To save time, these have been manually created.  Each preference
+ *    is has been created as a composable function, and they've been
+ *    stored in an array of functions.
+ * The preferences object stores the user as properties to ensure O(1)
+ *    lookup.
+ */
+
 const { areEqual, getInches } = require('../utils')
 
 const preferences = {

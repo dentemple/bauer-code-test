@@ -2,6 +2,8 @@
 
 /**
  * Create interfaces for the given json files based off of a shallow copy of each.
+ *    The shallow copy provides a naive guard against unexpected mutations.  Nested
+ *    properties aren't protected, however, which is a trade-off gain on performance.
  */
 
 function createInterface(json) {
